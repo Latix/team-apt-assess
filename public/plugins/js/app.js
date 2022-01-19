@@ -141,37 +141,3 @@ $(function () {
         return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
     }
 });
-
-$(() => {
-    let mouseCursor = document.querySelector('.cursor');
-    let navLinks = document.querySelectorAll('[data-anim="link"]');
-    let imgs = document.querySelectorAll('img');
-    // console.log(navLinks);
-
-    window.addEventListener('mousemove', cursor);
-
-    function cursor(e) {
-        mouseCursor.style.top = e.pageY + 'px';
-        mouseCursor.style.left = e.pageX + 'px';
-    }
-
-    navLinks.forEach(link => {
-        link.addEventListener('mouseover', () => {
-            mouseCursor.classList.add('link-grow')
-        });
-
-        link.addEventListener('mouseleave', () => {
-            mouseCursor.classList.remove('link-grow')
-        });
-    });
-
-    imgs.forEach(img => {
-        img.addEventListener('mouseover', () => {
-            mouseCursor.classList.add('link-grow')
-        });
-
-        img.addEventListener('mouseleave', () => {
-            mouseCursor.classList.remove('link-grow')
-        });
-    });
-})

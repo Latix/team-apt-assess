@@ -3,7 +3,6 @@ import React from 'react';
 export default function Processes() {
     return (
         <>
-        <div class="cursor"></div>
         <header className="header">
             <div className="header-absolute">
                 <div className="content mod--header">
