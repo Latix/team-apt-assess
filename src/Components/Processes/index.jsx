@@ -8,7 +8,7 @@ export default function Processes() {
                 <div className="content mod--header">
                     <div className="header__columns">
                         <div className="header__col">
-                            <a href="#" className="header__logo-link w-inline-block">
+                            <a href="/" className="header__logo-link w-inline-block">
                                 <img src="https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf303313995e0401_logo.svg"
                                     loading="lazy" alt="" className="header__logo-img" />
                                 <img
@@ -44,7 +44,7 @@ export default function Processes() {
                         </div>
                         <div className="header__col">
                             <div className="header__buttons">
-                                <a data-anim="login" href="#" className="btn mod--login w-inline-block">
+                                <a data-anim="login" href="/" className="btn mod--login w-inline-block">
                                     <div className="btn-login__ico-wrap">
                                         <div className="btn-login__arrow">
                                             <img
@@ -59,7 +59,7 @@ export default function Processes() {
                                             loading="lazy" alt="" className="btn-login__ico mod--2" />
                                     </div>
                                 </a>
-                                <a href="#" className="btn btn--reg w-button">Sign Up</a>
+                                <a href="/" className="btn btn--reg w-button">Sign Up</a>
                             </div>
                             <div className="header__humburger-wrap">
                                 <div className="header__humb">
@@ -208,13 +208,13 @@ export default function Processes() {
                                             <div className="graph__part-canvas w-embed">
                                             <img
                                                     src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAxIiBoZWlnaHQ9IjIwMSIgdmlld0JveD0iMCAwIDIwMSAyMDEiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0yMDEgMTAwLjVDMjAxIDEyMi45MTcgMTkzLjUwNSAxNDQuNjkxIDE3OS43MDcgMTYyLjM1OUMxNjUuOTA5IDE4MC4wMjYgMTQ2LjYgMTkyLjU3NCAxMjQuODUxIDE5OC4wMDVDMTAzLjEwMiAyMDMuNDM3IDgwLjE2MDcgMjAxLjQ0MSA1OS42NzYzIDE5Mi4zMzVDMzkuMTkxOCAxODMuMjI5IDIyLjMzOTkgMTY3LjUzNiAxMS44MDAzIDE0Ny43NTFMNTYuMTUwMiAxMjQuMTI1QzYxLjQyIDEzNC4wMTggNjkuODQ1OSAxNDEuODY0IDgwLjA4ODEgMTQ2LjQxOEM5MC4zMzA0IDE1MC45NzEgMTAxLjgwMSAxNTEuOTY4IDExMi42NzUgMTQ5LjI1M0MxMjMuNTUgMTQ2LjUzNyAxMzMuMjA1IDE0MC4yNjMgMTQwLjEwNCAxMzEuNDI5QzE0Ny4wMDMgMTIyLjU5NSAxNTAuNzUgMTExLjcwOSAxNTAuNzUgMTAwLjVMMjAxIDEwMC41WiIgZmlsbD0iI0ZGNDAzMyIvPgo8cGF0aCBkPSJNMTEuODY1NiAxNDcuODczQzUuNjQ0NSAxMzYuMjMzIDEuNzc2OTIgMTIzLjQ4MiAwLjQ4MzY3MSAxMTAuMzQ4Qy0wLjgwOTU3OCA5Ny4yMTM2IDAuNDk2ODM3IDgzLjk1MzEgNC4zMjgzMiA3MS4zMjM3TDUyLjQxNDIgODUuOTExOEM1MC40OTg0IDkyLjIyNjYgNDkuODQ1MiA5OC44NTY4IDUwLjQ5MTggMTA1LjQyNEM1MS4xMzg1IDExMS45OTEgNTMuMDcyMyAxMTguMzY3IDU2LjE4MjggMTI0LjE4NkwxMS44NjU2IDE0Ny44NzNaIiBmaWxsPSIjRTZEM0EzIi8+CjxwYXRoIGQ9Ik00LjE4NDc2IDcxLjgwMTJDMTEuNzA3MyA0Ni41NTUxIDI4Ljg0MTUgMjUuMjcxOSA1MS44OTk0IDEyLjUzMjhMNzYuMTk5NyA1Ni41MTY0QzY0LjY3MDggNjIuODg1OSA1Ni4xMDM2IDczLjUyNzUgNTIuMzQyNCA4Ni4xNTA2TDQuMTg0NzYgNzEuODAxMloiIGZpbGw9IiM4QkI4QTIiLz4KPHBhdGggZD0iTTUxLjg0MDQgMTIuNTY1NEM3NS4xNjIxIC0wLjMzOTkyMyAxMDIuNjU1IC0zLjQ1MjE4IDEyOC4yNzIgMy45MTMzTDExNC4zODYgNTIuMjA2NkMxMDEuNTc4IDQ4LjUyMzkgODcuODMxIDUwLjA4IDc2LjE3MDIgNTYuNTMyN0w1MS44NDA0IDEyLjU2NTRaIiBmaWxsPSIjNEM0RThFIi8+CjxwYXRoIGQ9Ik0xMjguMjM1IDMuOTAyN0MxNDkuMjEyIDkuOTI1NTEgMTY3LjY1OCAyMi42MTMgMTgwLjc4NSA0MC4wNDc2QzE5My45MTMgNTcuNDgyMiAyMDEuMDA5IDc4LjcxNjQgMjAxIDEwMC41NDFMMTUwLjc1IDEwMC41MkMxNTAuNzU0IDg5LjYwODIgMTQ3LjIwNyA3OC45OTExIDE0MC42NDMgNzAuMjczOEMxMzQuMDc5IDYxLjU1NjUgMTI0Ljg1NiA1NS4yMTI3IDExNC4zNjcgNTIuMjAxM0wxMjguMjM1IDMuOTAyN1oiIGZpbGw9IiM0MzJFMkQiLz4KPGNpcmNsZSBjeD0iMTAwLjUwMSIgY3k9IjEwMC40OTkiIHI9IjYwLjUyODQiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo="
-                                                    className="graph__part-canvas" id="graph__part-canvas" />
+                                                    className="graph__part-canvas" id="graph__part-canvas" alt="graph" />
                                                 <canvas style={{ display: 'none' }} id="canvas"></canvas>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="graph__col mod--2">
-                                        <ul role="list" className="graph__list">
+                                        <ul className="graph__list">
                                             <li className="graph__list-item">
                                                 <div className="graph__list-dot">
                                                     <div data-graph="dot4" className="graph__list-dot-border"></div>
@@ -378,7 +378,7 @@ export default function Processes() {
                             <p className="business__p">In Gig Share, you can work directly with the leading communication
                                 platforms - Slack and Zoom. Now you can have a brief meeting with your colleagues or even a
                                 video conference with just a couple of mouse clicks.</p>
-                            <div className="business__buttons"><a data-anim="start" href="#"
+                            <div className="business__buttons"><a data-anim="start" href="/"
                                     className="btn btn--business w-inline-block">
                                     <div className="btn__txt-wrap">
                                         <div className="btn__txt-anim">
@@ -386,7 +386,7 @@ export default function Processes() {
                                             <div className="btn__txt mod--over">Get started</div>
                                         </div>
                                     </div>
-                                </a><a href="#" className="btn-link mod--business">Learn more</a></div>
+                                </a><a href="/" className="btn-link mod--business">Learn more</a></div>
                         </div>
                     </div>
                 </div>
@@ -396,7 +396,7 @@ export default function Processes() {
                     <div data-w-id="611e80fe-41d5-4cae-c50f-d3d115a1656e" className="footer__offer"
                         style={{ transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                         <h2 className="footer__offer-heading">Get started with our app?</h2>
-                        <div data-style="dash2" className="footer__offer-btn-wrap"><a href="#"
+                        <div data-style="dash2" className="footer__offer-btn-wrap"><a href="/"
                                 className="btn mod--offer w-inline-block">
                                 <div className="btn-offer__arrow-wrap"><img
                                         src="https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf303330ff5e03f3_ico_arrow.svg"
@@ -432,7 +432,7 @@ export default function Processes() {
                                 </div>
                                 <nav className="footer__drop-list w-dropdown-list" id="w-dropdown-list-1"
                                     aria-labelledby="w-dropdown-toggle-1">
-                                    <ul role="list" className="footer__list">
+                                    <ul className="footer__list">
                                         <li className="footer__list-item"><a href="#Big-transfers" data-anim="link"
                                                 className="footer__nav-link w-inline-block w--current" tabIndex={0}>
                                                 <div className="nav-txt-anim">
@@ -482,9 +482,9 @@ export default function Processes() {
                                 </div>
                                 <nav className="footer__drop-list w-dropdown-list" id="w-dropdown-list-2"
                                     aria-labelledby="w-dropdown-toggle-2">
-                                    <ul role="list" className="footer__list">
+                                    <ul className="footer__list">
                                         <li className="footer__list-item"><a data-anim="link"
-                                                href="https://www.facebook.com/halolabteam/" target="_blank"
+                                                href="https://www.facebook.com/halolabteam/" target="_blank" rel="noreferrer"
                                                 className="footer__nav-link w-inline-block" tabIndex={0}>
                                                 <div className="nav-txt-anim">
                                                     <div className="nav-txt mod--over">Facebook</div>
@@ -492,7 +492,7 @@ export default function Processes() {
                                                 </div>
                                             </a></li>
                                         <li className="footer__list-item"><a data-anim="link"
-                                                href="https://www.instagram.com/halolabteam/" target="_blank"
+                                                href="https://www.instagram.com/halolabteam/" target="_blank" rel="noreferrer"
                                                 className="footer__nav-link w-inline-block" tabIndex={0}>
                                                 <div className="nav-txt-anim">
                                                     <div className="nav-txt mod--over">Instagram</div>
@@ -500,7 +500,7 @@ export default function Processes() {
                                                 </div>
                                             </a></li>
                                         <li className="footer__list-item"><a data-anim="link"
-                                                href="https://www.linkedin.com/company/halolabteam/" target="_blank"
+                                                href="https://www.linkedin.com/company/halolabteam/" target="_blank" rel="noreferrer"
                                                 className="footer__nav-link w-inline-block" tabIndex={0}>
                                                 <div className="nav-txt-anim">
                                                     <div className="nav-txt mod--over">Linked In</div>
@@ -508,7 +508,7 @@ export default function Processes() {
                                                 </div>
                                             </a></li>
                                         <li className="footer__list-item"><a data-anim="link"
-                                                href="https://www.behance.net/halolab" target="_blank"
+                                                href="https://www.behance.net/halolab" target="_blank" rel="noreferrer"
                                                 className="footer__nav-link w-inline-block" tabIndex={0}>
                                                 <div className="nav-txt-anim">
                                                     <div className="nav-txt mod--over">Behance</div>
@@ -516,7 +516,7 @@ export default function Processes() {
                                                 </div>
                                             </a></li>
                                         <li className="footer__list-item"><a data-anim="link"
-                                                href="https://dribbble.com/halolab" target="_blank"
+                                                href="https://dribbble.com/halolab" target="_blank" rel="noreferrer"
                                                 className="footer__nav-link w-inline-block" tabIndex={0}>
                                                 <div className="nav-txt-anim">
                                                     <div className="nav-txt mod--over">Dribbble</div>
@@ -530,7 +530,7 @@ export default function Processes() {
                     </div>
                     <div data-w-id="6fa7cd3d-1174-5ce2-c66f-feac5359db31" className="footer__columns mod--bottom"
                         style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
-                        <div className="footer__col mod--1 mod--bottom"><a href="https://www.halo-lab.com/" target="_blank"
+                        <div className="footer__col mod--1 mod--bottom"><a href="https://www.halo-lab.com/" target="_blank" rel="noreferrer"
                                 className="footer__copyright w-inline-block"><img
                                     src="https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf303317825e041c_logo-copyright.svg"
                                     loading="eager" alt="" className="footer__copyright-logo" />
@@ -550,8 +550,8 @@ export default function Processes() {
                                 <nav className="droplang__list w-dropdown-list" id="w-dropdown-list-3"
                                     aria-labelledby="w-dropdown-toggle-3"><a href="/" aria-current="page"
                                         className="droplang__list-link w-dropdown-link w--current" tabIndex={0}>English</a><a
-                                        href="#" className="droplang__list-link w-dropdown-link" tabIndex={0}>Français</a><a
-                                        href="#" className="droplang__list-link w-dropdown-link" tabIndex={0}>Russian</a></nav>
+                                        href="/" className="droplang__list-link w-dropdown-link" tabIndex={0}>Français</a><a
+                                        href="/" className="droplang__list-link w-dropdown-link" tabIndex={0}>Russian</a></nav>
                             </div>
                         </div>
                         <div className="footer__line" style={{ height: '1px' }}></div>
