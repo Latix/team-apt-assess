@@ -6,7 +6,8 @@ function App() {
   return (
     <>
         <CustomCursor />
-        <Processes />
+        <h1>Hello</h1>
+        {/* <Processes /> */}
     </>
   );
 }
