@@ -61,14 +61,6 @@ export default function Header() {
                                     </a>
                                     <a href="/" className="btn btn--reg w-button">Sign Up</a>
                                 </div>
-                                <div className="header__humburger-wrap">
-                                    <div className="header__humb">
-                                        <div className="header__humb-line mod--1"></div>
-                                        <div className="header__humb-line mod--2"></div>
-                                        <div className="header__humb-line mod--3"></div>
-                                    </div>
-                                    <div className="header__humb-close"></div>
-                                </div>
                             </div>
                         </div>
                     </div>

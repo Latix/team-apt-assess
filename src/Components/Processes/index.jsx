@@ -8,20 +8,16 @@ export default function Processes() {
         <section id="Processes" data-w-id="92175d8d-8658-4116-7922-2511d5d3b108" className="section mod--process">
             <div className="content">
                 <div className="processes__columns">
-                    <div data-w-id="ea1b0f68-432d-e681-61f0-364a0f2962c2" className="processes__col mod--1"
-                        style={{ opacity: 1 }}>
+                    <div className="processes__col mod--1" style={{ opacity: 1 }}>
                         <div className="processes__heading-wrap">
-                            <h2 data-w-id="40679d9c-23cd-f8c6-9618-cfd51c5afb4c" className="processes__heading"
-                                style={{ transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+                            <h2 className="processes__heading">
                                 Your best processes</h2>
-                            <p data-w-id="5b03307f-7f72-467f-2014-18776f1fc3a2" className="processes__p"
-                                style={{ transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+                            <p className="processes__p">
                                 It’s a smart workspace where teams, tools and content come workspace together.</p>
                         </div>
-                        <div data-w-id="de450e46-f6d3-91d2-3b9b-9554ef34c83f" className="processes__line"
+                        <div className="processes__line"
                             style={{ height: '1px' }}></div>
-                        <div data-w-id="82d57afa-4ea9-ddee-fbd0-2465493ae4d3" className="processes__logos"
-                            style={{ transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+                        <div className="processes__logos">
                                 <img src="https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf3033f0965e03fe_processes_logo-01.svg"
                                     loading="lazy" alt="" className="processes__logo" />
                                 <img
@@ -35,10 +31,9 @@ export default function Processes() {
                                     loading="lazy" alt="" className="processes__logo mod--last" />
                         </div>
                     </div>
-                    <div data-w-id="edc0a8bb-8c01-dc4f-5d4e-a9b66eb46abc" className="processes__col mod--2"
+                    <div className="processes__col mod--2"
                         style={{ opacity: 1 }}>
-                        <div data-w-id="40f9dc6e-78d8-b461-0b41-30d66152b1ed" className="graph-block"
-                            style={{ transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+                        <div className="graph-block">
                             <h3 className="graph__heading">Niches breakdown</h3>
                             <div className="graph__columns">
                                 <div className="graph__col mod--1">
@@ -120,19 +115,18 @@ export default function Processes() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="graph__btn"></div>
                         </div>
-                        <div className="processes__bg-wrap mod--1"><img
+                        <div className="processes__bg-wrap mod--1">
+                            <img
                                 src="https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf3033d34d5e03fb_dots.svg"
-                                loading="lazy" data-w-id="b400764b-dabf-86e4-3fff-3633a4ed2f2c" alt=""
-                                className="processes__bg mod--1"
-                                style={{ transform: 'translate3d(0px, 50px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d', willChange: 'transform' }} />
+                                loading="lazy" alt=""
+                                className="processes__bg mod--1" />
                         </div>
-                        <div className="processes__bg-wrap mod--2"><img
+                        <div className="processes__bg-wrap mod--2">
+                            <img
                                 src="https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf3033f48e5e03f4_processes_illustr.svg"
-                                loading="lazy" data-w-id="f04d259c-26c6-823d-48ac-f0cbdf030af0" alt=""
-                                className="processes__bg mod--2"
-                                style={{ transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }} />
+                                loading="lazy" alt=""
+                                className="processes__bg mod--2" />
                         </div>
                     </div>
                 </div>
