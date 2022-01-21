@@ -1,4 +1,4 @@
-import './App.css';
+import './assets/css/App.css';
 import CustomCursor from "./CustomCursor";
 import Home from './Containers/Home';
 

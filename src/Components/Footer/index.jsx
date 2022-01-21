@@ -4,8 +4,8 @@ export default function Footer() {
   return (
       <>
         <footer id="About" data-w-id="5a902773-1dd3-2c0e-6f8b-6e47cae613d7" className="footer">
-                <div data-w-id="682e79bb-f4d4-aca3-65b1-e2dce7b2d527" className="content" style={{ opacity: 1 }}>
-                    <div data-w-id="611e80fe-41d5-4cae-c50f-d3d115a1656e" className="footer__offer"
+                <div className="content" style={{ opacity: 1 }}>
+                    <div className="footer__offer"
                         style={{ transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                         <h2 className="footer__offer-heading">Get started with our app?</h2>
                         <div data-style="dash2" className="footer__offer-btn-wrap"><a href="/"
@@ -17,7 +17,7 @@ export default function Footer() {
                                         loading="eager" width="16" alt="" className="btn-offer__arrow mod--over" /></div>
                             </a></div>
                     </div>
-                    <div data-w-id="7e9e6881-6e97-16bf-f176-6472c127fab0" className="footer__columns mod--top"
+                    <div className="footer__columns mod--top"
                         style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                         <div className="footer__col mod--1">
                             <div data-hover="false" data-delay="0" className="footer__drop w-dropdown">
@@ -140,7 +140,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div data-w-id="6fa7cd3d-1174-5ce2-c66f-feac5359db31" className="footer__columns mod--bottom"
+                    <div className="footer__columns mod--bottom"
                         style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                         <div className="footer__col mod--1 mod--bottom"><a href="https://www.halo-lab.com/" target="_blank" rel="noreferrer"
                                 className="footer__copyright w-inline-block"><img
@@ -149,8 +149,7 @@ export default function Footer() {
                                 <div>2021 Halo Lab. All&nbsp;rights reserved</div>
                             </a></div>
                         <div className="footer__col mod--3 mod--bottom">
-                            <div data-hover="false" data-delay="0" data-w-id="d72c125b-9204-994f-ddc2-45742146f539"
-                                className="droplang w-dropdown">
+                            <div data-hover="false" data-delay="0" className="droplang w-dropdown">
                                 <div className="droplang__btn w-dropdown-toggle" id="w-dropdown-toggle-3"
                                     aria-controls="w-dropdown-list-3" aria-haspopup="menu" aria-expanded="false"
                                     role="button" tabIndex={0} style={{ opacity: 0.7 }}>
@@ -159,35 +158,34 @@ export default function Footer() {
                                     </div>
                                     <div>English</div>
                                 </div>
-                                <nav className="droplang__list w-dropdown-list" id="w-dropdown-list-3"
-                                    aria-labelledby="w-dropdown-toggle-3"><a href="/" aria-current="page"
-                                        className="droplang__list-link w-dropdown-link w--current" tabIndex={0}>English</a><a
-                                        href="/" className="droplang__list-link w-dropdown-link" tabIndex={1}>Français</a><a
-                                        href="/" className="droplang__list-link w-dropdown-link" tabIndex={2}>Russian</a></nav>
+                                <nav className="droplang__list w-dropdown-list" id="w-dropdown-list-3">
+                                    <a href="/" className="droplang__list-link w-dropdown-link w--current" tabIndex={0}>English</a>
+                                    <a href="/" className="droplang__list-link w-dropdown-link" tabIndex={1}>Français</a>
+                                    <a href="/" className="droplang__list-link w-dropdown-link" tabIndex={2}>Russian</a></nav>
                             </div>
                         </div>
                         <div className="footer__line" style={{ height: '1px' }}></div>
                     </div>
                 </div>
                 <div className="bg mod--footer">
-                    <div data-w-id="8d4f32de-0889-8a62-2cd8-38dabae4cdd8" className="bg__grey" style={{ width: '1384px' }}></div>
+                    <div className="bg__grey" style={{ width: '1384px' }}></div>
                     <div className="bg__img-wrap mod--5"
                         style={{ willChange: 'transform', transform: 'translate3d(0px, -100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                         <img src="https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf303327425e03e8_footer_illustr-01.svg"
-                            loading="eager" data-w-id="95780d0c-c0ed-89df-fca2-82a29ec1fb46" alt="" className="bg__img mod--5"
+                            loading="eager" alt="" className="bg__img mod--5"
                             style={{ transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }} />
                     </div>
                     <div className="bg__img-wrap mod--6"
                         style={{ willChange: 'transform', transform: 'translate3d(0px, 100%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                         <img src="https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf303368525e03ea_footer_illustr-03.svg"
-                            loading="eager" data-w-id="95780d0c-c0ed-89df-fca2-82a29ec1fb47" alt="" className="bg__img mod--6"
+                            loading="eager" alt="" className="bg__img mod--6"
                             style={{ transform: 'translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }} />
                     </div>
                 </div>
                 <div className="bg__img-wrap mod--7"
                     style={{ willChange: 'transform', transform: 'translate3d(100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
                     <img src="https://uploads-ssl.webflow.com/61e04ec7cf303307d55e03ce/61e04ec7cf3033b2c75e03ec_footer_illustr-02.svg"
-                        loading="eager" data-w-id="95780d0c-c0ed-89df-fca2-82a29ec1fb48" alt="" className="bg__img mod--7"
+                        loading="eager" alt="" className="bg__img mod--7"
                         style={{ transform: 'translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d' }} />
                 </div>
             </footer>
