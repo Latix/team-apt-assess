@@ -1,12 +1,12 @@
 import './App.css';
 import CustomCursor from "./CustomCursor";
-import Processes from './Components/Processes';
+import Home from './Containers/Home';
 
 function App() {
   return (
     <>
         <CustomCursor />
-        <Processes />
+        <Home />
     </>
   );
 }
