@@ -10,7 +10,7 @@ html {
 
 body {
   background-color: #f2f2f2;
-  font-family: soleil;
+  font-family: 'Soleil' !important;
   color: #0a033c;
   font-size: 18px;
   line-height: 22px;
