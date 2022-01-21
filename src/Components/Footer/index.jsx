@@ -173,7 +173,7 @@ export default function Footer() {
                                     <div className="droplang__arrow"></div>
                                     <div>English</div>
                                 </div>
-                                <nav className="droplang__list w-dropdown-list" id="w-dropdown-list-3">
+                                <nav className="droplang__list w-dropdown-list footer-dropdown-list" id="w-dropdown-list-3">
                                     <a href="/" className="droplang__list-link w-dropdown-link w--current" tabIndex={0}>English</a>
                                     <a href="/" className="droplang__list-link w-dropdown-link" tabIndex={1}>Français</a>
                                     <a href="/" className="droplang__list-link w-dropdown-link" tabIndex={2}>Russian</a>

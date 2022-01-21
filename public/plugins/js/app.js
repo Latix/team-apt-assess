@@ -66,3 +66,13 @@ $(function () {
         });
     }
 });
+
+$(() => {
+    let footer_list = document.querySelector('.footer-dropdown-list');
+
+    footer_list.querySelectorAll('a').forEach((item, index) => {
+        if (index !== 0) {
+            item.classList.remove('w--current');
+        }
+    });
+});
