@@ -550,8 +550,8 @@ export default function Processes() {
                                 <nav className="droplang__list w-dropdown-list" id="w-dropdown-list-3"
                                     aria-labelledby="w-dropdown-toggle-3"><a href="/" aria-current="page"
                                         className="droplang__list-link w-dropdown-link w--current" tabIndex={0}>English</a><a
-                                        href="/" className="droplang__list-link w-dropdown-link" tabIndex={0}>Français</a><a
-                                        href="/" className="droplang__list-link w-dropdown-link" tabIndex={0}>Russian</a></nav>
+                                        href="/" className="droplang__list-link w-dropdown-link" tabIndex={1}>Français</a><a
+                                        href="/" className="droplang__list-link w-dropdown-link" tabIndex={2}>Russian</a></nav>
                             </div>
                         </div>
                         <div className="footer__line" style={{ height: '1px' }}></div>
